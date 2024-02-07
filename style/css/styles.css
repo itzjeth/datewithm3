@@ -39,7 +39,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
 
 }
@@ -47,10 +47,10 @@ body {
 .btn {
     background: linear-gradient( to bottom, #FF3659, #FF0833);
     color: white;
-    padding: 15px 32px;
+    padding: 15px 42px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 26px;
     margin: 4px 2px;
     cursor: pointer;
     border: none;
@@ -79,6 +79,19 @@ body {
         text-align: center;
         margin-top: 20px;
         margin-bottom: 0px;
+    }
+    .btn {
+        background: linear-gradient( to bottom, #FF3659, #FF0833);
+        color: white;
+        padding: 15px 42px;
+        text-align: center;
+        display: inline-block;
+        font-size: 26px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
     }
     
   }
